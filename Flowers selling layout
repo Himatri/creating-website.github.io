@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himatri Flowers</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<style>
+    /* CSS reset */
+    
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://i.pinimg.com/736x/6b/29/c6/6b29c67478de3bcd65715a257ac28012.jpg');
+        background-repeat: no-repeat;
+        background-size: 1800px 646px;
+    }
+    
+    .left {
+        display: inline-block;
+        /* border: 3px solid red; */
+        position: absolute;
+        left: 30px;
+        top: 10px;
+    }
+    
+    .left img {
+        width: 82px;
+        filter: invert(100);
+        margin-left: 8px;
+    }
+    
+    .left div {
+        line-height: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .mid {
+        display: block;
+        width: 845px;
+        margin: 20px auto;
+        /* border: 3px solid red; */
+    }
+    
+    .right {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        display: inline-block;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+        /* font-style:; */
+    }
+    
+    .navbar li a {
+        display: inline-block;
+        color: red;
+        text-decoration: none;
+        padding: 20px 10px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a :active {
+        text-decoration: underline;
+        color: greenyellow;
+    }
+    
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 10px;
+        background-color: black;
+        color: green;
+        padding: 5px 10px;
+        border: 3px solid rgb(20, 71, 4);
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(15, 139, 56);
+    }
+    
+    .container {
+        border: 3px solid black;
+        margin: 25px 56px;
+        padding: 26px;
+        width: 863px;
+        border-radius: 30px;
+    }
+    
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 433px;
+        padding: auto;
+        border: 3px solid black;
+        margin: 12px solid green;
+        font-size: 20px;
+        border-radius: 7px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 103px;
+        margin: 15px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box is for logo -->
+        <div class="left">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.78HcdZOPZL9xNPxa1wq_SQHaEt&pid=Api&P=0&w=248&h=158" alt="">
+            <div>BEAUTIFUL</div>
+            <div>FLOWERS</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Available Flowers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now </button>
+            <button class="btn">Email Us </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Get the flowers of your choice now!!! </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Flower Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Flower Colour">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact-No.">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Remarks">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
